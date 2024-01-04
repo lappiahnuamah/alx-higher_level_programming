@@ -5,9 +5,9 @@ def uppercase(s):
         if ord('a') <= ord(char) <= ord('z'):
             # Convert the character to uppercase using ASCII manipulation
             uppercase_char = chr(ord(char) - ord('a') + ord('A'))
-            print(uppercase_char, end='')
+            print('{}'.format(uppercase_char), end='')
         else:
-            print(char, end='')
+            print('{}'.format(char), end='')
 
     # Add a new line after printing the uppercase string
     print()
