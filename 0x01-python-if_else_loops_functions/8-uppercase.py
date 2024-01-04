@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-def uppercase(s):
-    for char in s:
+def uppercase(str):
+    for char in str:
         # Check if the character is a lowercase letter
         if ord('a') <= ord(char) <= ord('z'):
             # Convert the character to uppercase using ASCII manipulation
