@@ -5,6 +5,3 @@ for tens_digit in range(10):
             print("{:02d} ".format(tens_digit * 10 + ones_digit), end='')
         else:
             print("{:02d}, ".format(tens_digit * 10 + ones_digit), end='')
-
-# Add a new line after the last combination
-print()
