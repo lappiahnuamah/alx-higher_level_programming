@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-if __name__ = '__main__':
+if __name__ == '__main__':
     import sys
 
     iterable = sys.argv
@@ -13,6 +13,6 @@ if __name__ = '__main__':
             print('{} arguments:'.format(len(sys.argv)-1))
             for elem in iterable:
                 print('{}: {}'.format(n, elem), end='\n')
-            n += 1
+                n += 1
 
     enumerate(iterable)
