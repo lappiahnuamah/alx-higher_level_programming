@@ -9,6 +9,7 @@ if __name__ == '__main__':
         n = start
         if len(sys.argv)-1 == 1:
             print('{} argument:'.format(len(sys.argv)-1))
+            print('{}: {}'.format(len(sys.argv)-1, sys.argv[1]))
         else:
             print('{} arguments:'.format(len(sys.argv)-1))
             for elem in iterable:
