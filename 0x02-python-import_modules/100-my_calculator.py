@@ -15,16 +15,16 @@ if __name__ == '__main__':
             b = int(iterable[2])
             if iterable[1] == '+':
                 print('{} {} {} = {}'.format(iterable[0], iterable[1],
-                iterable[2], calculator_1.add(a, b)))
+                      iterable[2], calculator_1.add(a, b)))
             elif iterable[1] == '-':
                 print('{} {} {} = {}'.format(iterable[0], iterable[1],
-                iterable[2], calculator_1.sub(a, b)))
+                      iterable[2], calculator_1.sub(a, b)))
             elif iterable[1] == '*':
                 print('{} {} {} = {}'.format(iterable[0], iterable[1],
-                    iterable[2], calculator_1.mul(a, b)))
+                      iterable[2], calculator_1.mul(a, b)))
             elif iterable[1] == '/':
                 print('{} {} {} = {}'.format(iterable[0], iterable[1],
-            iterable[2], calculator_1.div(a, b)))
+                      iterable[2], calculator_1.div(a, b)))
             else:
                 print('Unknown operator. Available operators: +, -, * and /')
                 exit(1)
